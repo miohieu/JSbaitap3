@@ -1,0 +1,39 @@
+body{
+    background-color:#7289da;
+}
+button {
+  cursor: pointer;
+
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid grey;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+  transition: all 0.5s ease-out;
+  background-color: #424549;
+}
+button:hover {
+    background-color: #36393e;
+}
+button:active {
+  background-color:#282b30;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.array,
+.array2 {
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: white;
+    max-width: 50vh;
+    background-color:#282b30;
+    letter-spacing: 1px;
+}
+.exercise_container {
+    color: #ffffff;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
